@@ -64,23 +64,26 @@ export const projectsData = [
   {
     title: "Chattrix",
     description:
-        "A full-stack GPT model offering real-time streaming AI responses, image/file uploads (Cloudinary), message editing, persistent user conversations, and memory via (mem0ai)—designed to handle multiple users and ready for SaaS deployment.",
- tags: ["Next.js", "TypeScript", "ShadCn", "Vercel AI SDK", "OpenAI", "Mem0AI", "Cloudniary", "MongoDB"],
-    imageUrl:chattrix,
+      "A full-stack GPT model offering real-time streaming AI responses, image/file uploads (Cloudinary), message editing, persistent user conversations, and memory via (mem0ai)—designed to handle multiple users and ready for SaaS deployment.",
+    tags: ["Next.js", "TypeScript", "ShadCn", "Vercel AI SDK", "OpenAI", "Mem0AI", "Cloudniary", "MongoDB"],
+    imageUrl: chattrix,
+    githubUrl: "https://github.com/vishal2005025/chatgpt-clone",
   },
   {
     title: "SLEEP SAFE DRIVE",
     description:
-     "I developed a real-time driver drowsiness detection system that uses computer vision and machine learning to monitor driver alertness and prevent accidents. The system alerts the driver when signs of drowsiness are detected.",
-   tags: [ "Python", "Flask", "OpenCV", "Numpy", "Dlib", "pygame", "Imutils"],
+      "I developed a real-time driver drowsiness detection system that uses computer vision and machine learning to monitor driver alertness and prevent accidents. The system alerts the driver when signs of drowsiness are detected.",
+    tags: ["Python", "Flask", "OpenCV", "Numpy", "Dlib", "pygame", "Imutils"],
     imageUrl: DD,
+    githubUrl: "https://github.com/vishal2005025/Driver_Drowsiness_Detection_System", 
   },
   {
     title: "ReviewBot",
     description:
-      "A full-stack AI-powered code reviewer using the MERN stack and Integrated OpenAI’s advanced language models API to to intelligently analyze code submissions and provide real-time feedback on syntax errors, logical flaws, and adherence to industry-standard best practices.",
-  tags: ["React", "Node.js", "OpenAI", "Tailwind", "Express.js"],
+      "A full-stack AI-powered code reviewer using the MERN stack and Integrated OpenAI’s advanced language models API to intelligently analyze code submissions and provide real-time feedback on syntax errors, logical flaws, and adherence to industry-standard best practices.",
+    tags: ["React", "Node.js", "OpenAI", "Tailwind", "Express.js"],
     imageUrl: reviewbot,
+    githubUrl: "https://github.com/vishal2005025/ReviewBot", 
   },
 ] as const;
 
